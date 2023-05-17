@@ -9,7 +9,7 @@ public class JavaDemoWithData {
 		String empName = "John Miller"; //String data type
 		int empId = 8686; // Integer data type - Integers in maths ... -3 -2 -1 0 1 2 3 4 5...100..10000...100000...infinite
         char empGender = 'M'; //Character data type
-        boolean isMarried  = true; // etiher true or false
+        boolean isMarried  = true; // either true or false
         float empSalary = 1000.56000999888788787899f;
         double empIncentive  = 5000.767676767676767676769988;
         
