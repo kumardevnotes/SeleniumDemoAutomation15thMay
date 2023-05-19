@@ -13,12 +13,13 @@ public class JavaDemoWithData {
         float empSalary = 1000.56000999888788787899f;
         double empIncentive  = 5000.767676767676767676769988;
         
+        System.out.println(empIncentive);
         System.out.println(empName);
         System.out.println(empId);
         System.out.println(empGender);
         System.out.println(isMarried);
         System.out.println(empSalary);
-        System.out.println(empIncentive);
+        
 	}
 	
 	// Practice same program with std details
