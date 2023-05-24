@@ -1,4 +1,4 @@
-package com.myPackage;
+package com.string.demo;
 
 public class MyDemo {
 
