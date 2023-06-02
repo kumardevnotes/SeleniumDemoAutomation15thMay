@@ -4,7 +4,7 @@ public class IfElseDemo {
 
 	public static void main(String[] args) {
 
-		char empGender = 'M';
+		char empGender = 'H';
 
 		if (empGender == 'M') {  //  'M' == 'M' --> true
 			System.out.println("You are a male");
