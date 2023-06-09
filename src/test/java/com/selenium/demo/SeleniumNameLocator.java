@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class SeleniumCommandsDemo1 {
+public class SeleniumNameLocator {
 
 	public static void main(String[] args) throws InterruptedException {
 		//To get root folder in your computer
@@ -28,14 +28,14 @@ public class SeleniumCommandsDemo1 {
 				Thread.sleep(3000); // 3000ms = 3seconds
 				
 				//CLicking in Log in link on the screen
-				driver.findElement(By.id("nav_login")).click();
+				driver.findElement(By.partialLinkText("Log in")).click();
 				
 				//Entering user email address and password
-				driver.findElement(By.id("email_input")).sendKeys("johnnitesh2@gmail.com");
-				driver.findElement(By.id("password_input")).sendKeys("Testing@123");
+				driver.findElement(By.name("email")).sendKeys("johnnitesh2@gmail.com");
+				driver.findElement(By.name("password")).sendKeys("Testing@123");
 				
 				//Clicking on Login button 
-				driver.findElement(By.id("login_button")).click();
+				driver.findElement(By.className("button")).click();
 				
 				Thread.sleep(4000); 
 				

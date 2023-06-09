@@ -11,4 +11,17 @@ tagName
 
 xpath
 
-CssSelector
+ Absolute xpath - /html/body/div[1]/div[1]/div[4]/ul/li[1]/a -  lengthy and keeps on changing. so not recommended
+ 
+ Relative Xpath - //
+ 
+  using exact text match - //a[.='Log in']
+  using attribute and value of the tag - //input[@id='email_input'] 
+                                         //input[@type='submit'] 
+  Locate parent using child -            //a[.='Privacy policy']/..
+  Following sibling  -   //a[.='Privacy policy']/following-sibling::a
+  Index based or filtering my element out of all matching elements - (//a)[3]
+
+CssSelector -  Not recommended
+
+
