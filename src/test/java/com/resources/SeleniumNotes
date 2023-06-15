@@ -77,6 +77,8 @@ getTitle() --> To get the title of the web page
 getAttribute() 	--> This method is used to get the attribute val 
 getPageUrl() ---> This method gives the page Url
 
+JavascriptExecutor - Used this in ScrollToElement example
+
 
 
 Actions class in Selenium
@@ -97,8 +99,6 @@ Select class in Selenium
 SelectByIndex()-->
 SelectBYValue()-->
 SelectByVisibleText()-->
-
-JavascriptExecutor - Interface
 
 capture screenshot
 
