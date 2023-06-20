@@ -1,0 +1,20 @@
+SpeakLanguages Tests:
+
+Testcase1 -  Verify login for valid logins
+    1. Launch Chrome and launch application https://speaklanguages.com
+    2. Click on Log in link on the screen
+    3. Find that login page is loaded
+    4. Enter valid user email address and password and click on login button
+    5. Find that user should be able to login (Validate username on the screen)
+    
+Testcase2 - Verify new user singup is successful
+    1. Launch Chrome and launch application https://speaklanguages.com
+    2. Click on Sign up link on the screen
+    3. Find that Sign up page is loaded
+    4. Enter all the details such as firstname, lastname, email address, password, gender and DOB
+    5. Then click on Signup link
+    6. Find that 'Thank you message' is displayed and sign up is success
+    
+    
+POM  -  Page Object Model - automation best practice
+pom.xml  - Project Object Model and it is an xml document - where you can keep all dependencies and plugins required for maven your project

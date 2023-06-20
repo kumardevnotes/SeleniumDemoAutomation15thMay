@@ -2,14 +2,8 @@
   
 <suite name="DemoSuite" verbose="1" > 
   <test name="DemoTest">
-<groups>
-    <run>
-      <include name="RegressionTest"/>
-    </run>
-  </groups>
     <classes>
-      <class name="com.testng.demo.TestNgDemo1"/>
-      <class name="com.testng.demo.TestNgDemo2"/>
+      <class name="com.testng.demo.TestNGDemoWithAnnotations"/>
     </classes>
   </test>
 </suite>
