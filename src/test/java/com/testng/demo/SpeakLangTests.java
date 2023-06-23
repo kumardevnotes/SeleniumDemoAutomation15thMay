@@ -11,6 +11,10 @@ public class SpeakLangTests {
   }
 
   @Test
+  public void verifyLandingPage() {
+  }
+  
+  @Test
   public void verifyLogin() {
   }
   
