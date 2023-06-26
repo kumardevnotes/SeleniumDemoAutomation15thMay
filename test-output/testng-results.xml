@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-23T22:46:28 IST" name="Default suite" finished-at="2023-06-23T22:47:44 IST" duration-ms="76257">
+  <suite started-at="2023-06-26T23:08:18 IST" name="Default suite" finished-at="2023-06-26T23:08:30 IST" duration-ms="11937">
     <groups>
     </groups>
-    <test started-at="2023-06-23T22:46:28 IST" name="Default test" finished-at="2023-06-23T22:47:44 IST" duration-ms="76257">
-      <class name="com.app.pages.SignUpPage">
-        <test-method signature="verifySignup()[pri:0, instance:com.app.pages.SignUpPage@3bf9ce3e]" started-at="2023-06-23T22:46:28 IST" name="verifySignup" finished-at="2023-06-23T22:46:55 IST" duration-ms="26564" status="PASS">
+    <test started-at="2023-06-26T23:08:18 IST" name="Default test" finished-at="2023-06-26T23:08:30 IST" duration-ms="11937">
+      <class name="com.testng.demo.SpeakLangTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.demo.SpeakLangTests@6283d8b8]" started-at="2023-06-26T23:08:18 IST" name="beforeMethod" finished-at="2023-06-26T23:08:23 IST" duration-ms="4947" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignup -->
-        <test-method signature="verifySignup()[pri:0, instance:com.app.pages.SignUpPage@3bf9ce3e]" started-at="2023-06-23T22:46:55 IST" name="verifySignup" finished-at="2023-06-23T22:47:20 IST" duration-ms="25639" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.testng.demo.SpeakLangTests@6283d8b8]" started-at="2023-06-26T23:08:23 IST" name="verifyLogin" finished-at="2023-06-26T23:08:29 IST" duration-ms="6005" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignup -->
-        <test-method signature="verifySignup()[pri:0, instance:com.app.pages.SignUpPage@3bf9ce3e]" started-at="2023-06-23T22:47:20 IST" name="verifySignup" finished-at="2023-06-23T22:47:44 IST" duration-ms="24007" status="PASS">
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.demo.SpeakLangTests@6283d8b8]" started-at="2023-06-26T23:08:29 IST" name="afterMethod" finished-at="2023-06-26T23:08:30 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignup -->
-      </class> <!-- com.app.pages.SignUpPage -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testng.demo.SpeakLangTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

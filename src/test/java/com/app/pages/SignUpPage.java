@@ -14,6 +14,11 @@ public class SignUpPage {
 	
 	WebDriver driver = null;
 	
+	public SignUpPage(WebDriver actualDriver){
+		driver = actualDriver;
+	}
+	
+	
 	public static By signupLink = By.xpath("//a[.='Sign up']");
 	public static By firstNameField = By.xpath("//input[@id='first_name']");
 	public static By lastNameField = By.xpath("//input[@name='last_name']");
@@ -30,8 +35,7 @@ public class SignUpPage {
 	public void completeSingup() throws InterruptedException {
 		
 		Faker fakerObj = new Faker();
-	
-		driver.findElement(signupLink).click();
+
 		driver.findElement(firstNameField).sendKeys(fakerObj.name().firstName());
 		driver.findElement(lastNameField).sendKeys(fakerObj.name().lastName());
 		driver.findElement(emailaddressField).sendKeys(fakerObj.internet().emailAddress());
@@ -66,8 +70,6 @@ public class SignUpPage {
 
 		driver.findElement(signUpButton).click();
 		Thread.sleep(10000);
-
-		driver.quit();
 	}
 
 }

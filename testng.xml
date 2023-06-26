@@ -3,7 +3,7 @@
 <suite name="DemoSuite" verbose="1" > 
   <test name="DemoTest">
     <classes>
-      <class name="com.testng.demo.TestNGDemoWithAnnotations"/>
+      <class name="com.testng.demo.SpeakLangTests"/>
     </classes>
   </test>
 </suite>
